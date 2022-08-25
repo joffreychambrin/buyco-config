@@ -1,0 +1,4 @@
+env: {{ .Branch }}
+postgres:
+  host: {{ .Outputs.postgres.host }}
+  port: {{ .Outputs.postgres.port }}
